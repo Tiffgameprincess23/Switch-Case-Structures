@@ -1,0 +1,20 @@
+if getDayName:
+
+getDayName(1) should return "Monday".
+getDayName(4) should return "Thursday".
+getDayName(8) should return "Invalid day".
+if getSeason:
+
+getSeason("March") should return "Spring".
+getSeason("July") should return "Summer".
+getSeason("November") should return "Autumn".
+getSeason("February") should return "Winter".
+getSeason("August") should return "Invalid month".
+
+if calculateDiscount:
+
+calculateDiscount("Regular", 120) should return 12.
+calculateDiscount("Regular", 80) should return 4.
+calculateDiscount("Premium", 150) should return 30.
+calculateDiscount("Premium", 70) should return 10.
+calculateDiscount("Gold", 100) should return "Invalid customer type".
